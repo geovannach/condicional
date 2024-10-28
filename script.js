@@ -27,10 +27,12 @@
 //      alert("Você ainda não tem idade para dirigir!")
 // }
 
-let gostarDePizza = prompt("você gosta de pizza? responda (sim ou não) ")
-//===estritamente igual
-if(gostarDePizza === "Sim"){
-    alert("Que ótimo! Vamos comer juntos!")
+let gostarDePizza=
+prompt("Você gosta de pizza? responda (sim ou não)" );
+//=== estritamente igual
+if (gostarDePizza === "sim")
+{
+   // alert ("Que ótimo! Vamos comer juntos!")
 }else{
- alert("Tudo bem, talvez você goste de outra comida");
+   // alert("Tudo bem, talvez você goste de outra comida");
 }
